@@ -44,3 +44,16 @@ dependencies:
   - pip
 
 ```
+
+## Removing the conda env
+
+```bash
+conda env create -n env_name
+```
+
+## installing package without activating the conda env => eg: C:\Users\ACER>
+
+```bash
+conda env create -n env_name python=3.9 jupter pandas django
+```
+
